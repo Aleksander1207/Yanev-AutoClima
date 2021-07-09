@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(41,40,84,255);
+    background-color:black;
 }
 
 /*--------------Header Start----------------*/
@@ -13,6 +13,7 @@ header{
 }
 header img{
     width: 100%;
+    
 }
 #logo-container{
      width: 30%;
@@ -88,11 +89,78 @@ nav{
     background-color: rgba(41,40,84,255);
     color: white;
   }
-  
-  .topnav .icon {
-    display: none;
-  }
+
   /*--------------Header End----------------*/
+
+
+
+  /*--------------Main Start----------------*/
+  .center{
+    color:rgb(211, 211, 211);
+    text-align: center;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 80px;
+  }
+  .center h2{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .center p{
+    font-size: 20px;
+    padding: 15px 30px;
+    text-align: justify;
+  }
+
+
+  /*--------------Main End----------------*/
+
+
+
+/*--------------Footer Start----------------*/
+footer{
+    max-width: 100%;
+}
+footer img{
+    width: 100%;
+}
+.center-footer{
+  display: flex;
+  justify-content: center;
+}
+.center-footer h1{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px 50px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -100px;
+}
+.center-footer a{
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  bottom: -150px;
+}
+.center-footer a:hover, .center-footer a:active {
+    background-color: red;
+}
+hr{
+  width: 100%;
+}
+footer p{
+  color: white;
+  text-align: center;
+  margin: 15px auto;
+}
+/*--------------Footer End----------------*/
+
+
 
   @media screen and (min-width: 768px) {
     /*--------------Header Start----------------*/
@@ -118,7 +186,30 @@ nav{
     }
     /*--------------Header End----------------*/
 
+/*--------------Footer Start----------------*/
+    .center-footer h1{
+      margin: 30px 60px;
+      bottom: -150px;
+    }
+    .center-footer a{
+      bottom: -220px;
+      font-size: 18px;
+    }
+/*--------------Footer End----------------*/
+}
+
+@media only screen and (min-width: 900px) {
+
+  /*--------------Footer Start----------------*/
+  .center-footer h1{
+    bottom: -200px;
   }
+  .center-footer a{
+    bottom: -280px;
+  }
+/*--------------Footer End----------------*/
+  
+}
 
   @media only screen and (min-width: 992px) {
 
@@ -140,6 +231,34 @@ nav{
     }
     /*--------------Header End----------------*/
 
+    /*--------------Main Start----------------*/
+  .center{
+    margin-top: 40px;
+    margin-bottom: 120px;
+  }
+  .center h2{
+    padding: 10px;
+    font-size: 40px;
+  }
+  .center p{
+    font-size: 24px;
+    padding: 15px 35px;
+  }
+  
+  /*--------------Main End----------------*/
+
+  /*--------------Footer Start----------------*/
+  .center-footer h1{
+    bottom: -370px;
+    font-size: 30px;
+  }
+  .center-footer a{
+    bottom: -450px;
+    font-size: 25px;
+  }
+/*--------------Footer End----------------*/
+
+
   }
 
   @media only screen and (min-width: 1200px) {
@@ -158,6 +277,32 @@ nav{
 
 
     /*--------------Header End----------------*/
+
+  /*--------------Main Start----------------*/
+  .center{
+    margin-top: 60px;
+    margin-bottom: 160px;
+  }
+  .center h2{
+    font-size: 45px;
+  }
+  .center p{
+    font-size: 28px;
+    padding: 15px 80px;
+  }
+  /*--------------Main End----------------*/
+
+/*--------------Footer Start----------------*/
+   .center-footer h1{
+    bottom: -75%;
+    font-size: 40px;
+  }
+  .center-footer a{
+    bottom: -85%;
+    font-size: 30px;
+  }
+/*--------------Footer End----------------*/
+
 
     
 }
@@ -180,10 +325,33 @@ nav{
     font-size: 35px;
     top:-130px;
   }
-  
+/*--------------Header End----------------*/
 
+/*--------------Main Start----------------*/
+.center{
+  margin-top: 100px;
+  margin-bottom: 220px;
+}
+.center h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.center p{
+  font-size: 28px;
+  padding: 15px 180px;
+}
+/*--------------Main End----------------*/ 
 
-  /*--------------Header End----------------*/
+/*--------------Footer Start----------------*/
+   .center-footer h1{
+    bottom: -115%;
+    font-size: 40px;
+  }
+  .center-footer a{
+    bottom: -125%;
+    font-size: 30px;
+  }
+/*--------------Footer End----------------*/
 
   
 }

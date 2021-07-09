@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <title>Yanev Auto Clima</title>
+        <link rel="stylesheet" href="style-services.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <header>
+            <img src="header-image-mini-dark.jpg" alt="A/C Button " id="dark">
+            <div id="logo-container">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div id="center-container">
+                <h1>Услуги</h1>
+            </div>
+            
+        </header>
+
+        <div id="menu-container" onclick="toggleNavigation()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+            <div id="left-container">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" >За Нас</a>
+                <a href="services.html" class="active">Услуги</a>
+                <a href="auto-air-conditioner.html">Автоклиматици</a>
+                <a href="#">Вакумиране</a>
+                <a href="ozone.html">Озониране</a>
+                <a href="#">Атом машина</a>
+                <a href="#">Полиране на фарове</a>
+                <a href="#">Контакти</a>
+            </div>
+        </nav>
+
+        <section class="center" id="services">
+            <div id="dropdown-container">
+                <div class="btn-container">
+                    <button class="dropdown-btn" type="button" onclick="toggleServices(0)"><i class="fas fa-plus"></i> Автоклиматици</button>
+                </div>
+                <div class="dropdown-content">
+                    <h4>Визуална диагностика (оглеждане без машина) – 10лв.</h4>
+                    <h4>Машинна диагностика (вакуум с машина + визуална диагностика) – 25лв.</h4>
+                    <h4>Пълно зареждане (до 800 грама R134a + диагностика) – 49.99лв.</h4>
+                    <h4>Зареждане на грамаж (без диагностика) – 10лв./100гр.</h4>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="btn-container">
+                    <button class="dropdown-btn" type="button" onclick="toggleServices(1)"><i class="fas fa-plus"></i> Смяна на сервизни вентили</button>
+                </div>
+                <div class="dropdown-content">
+                    <h4>(Иглички и О-пръстени)</h4>
+                    <h4>Всички видове за 7,50 лв./брой</h4>
+                    <h4>Клапан с резба за 10 лв./брой (Опел и VW)</h4>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="btn-container">
+                    <button class="dropdown-btn" type="button" onclick="toggleServices(2)"><i class="fas fa-plus"></i> Премахване на лоши миризми</button>
+                </div>
+                <div class="dropdown-content">
+                    <h4>Озониране - 24,99лв.</h4>
+                    <h4>Атом Машина - 24,99лв.</h4>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="btn-container">
+                    <button class="dropdown-btn" type="button" onclick="toggleServices(3)"><i class="fas fa-plus"></i> Фарове</button>
+                </div>
+                <div class="dropdown-content">
+                    <h4>Полиране на фарове - 30лв. за 2бр. фарове</h4>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <footer>
+            <img src="footer-services-image.jpg" alt="A/C Button ">
+            <h1>Ако имате още въпроси, свържете се с нас !</h1>
+            <a href="#">Контакти</a>
+        </footer>
+
+    </body>
+</html>
