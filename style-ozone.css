@@ -83,24 +83,34 @@ nav{
   }
 /*--------------Header End----------------*/
 
-/*--------------Ozone Start----------------*/
+
+
+/*--------------Section Start----------------*/
 section{
     width: 100%;
+    transform: translateY(60px);
 }
 section h2{
     color: white;
     text-align: center;
+    padding: 20px;
+    font-size: 30px;
 }
 section p{
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    border: 3px solid rgba(20, 97, 211, 0.815);
+}
+p img{
+  width: 40%;
+  float: right;
 }
 
-
-
-
-/*--------------Ozone End----------------*/
-
+/*--------------Section End----------------*/
 
 
 
@@ -113,7 +123,7 @@ footer{
 footer img{
   width: 100%;
   opacity: 0.7;
-  transform: translateY(70%);
+  transform: translateY(75%);
   z-index: -1;
 }
 footer h1{
@@ -161,6 +171,22 @@ footer a:hover, footer a:active {
 /*--------------Header End----------------*/
 
 
+/*--------------Section Start----------------*/
+section h2{
+  padding: 25px;
+  font-size: 35px;
+}
+section p{
+  padding: 30px;
+  font-size: 22px;
+}
+p img{
+  width: 45%;
+}
+
+/*--------------Section End----------------*/
+
+
 /*--------------Footer Start----------------*/
 footer h1{
   margin: 30px 60px;
@@ -174,7 +200,7 @@ footer a{
 
 @media only screen and (min-width: 992px) {
 
-    /*--------------Header Start----------------*/
+/*--------------Header Start----------------*/
     header h1{
       font-size: 50px;
       top: -50px;
@@ -191,7 +217,18 @@ footer a{
     #left-container{
         width:66%;
       }
-    /*--------------Header End----------------*/
+/*--------------Header End----------------*/
+
+/*--------------Section Start----------------*/
+section h2{
+  padding: 30px;
+  font-size: 40px;
+}
+section p{
+  padding: 33px;
+  font-size: 24px;
+}
+/*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
 footer h1{
@@ -205,6 +242,14 @@ footer a{
 }
 
 @media only screen and (min-width: 1200px) {
+/*--------------Section Start----------------*/
+
+  section{
+    transform: translateY(150px);
+}
+/*--------------Section End----------------*/
+
+
 /*--------------Footer Start----------------*/
 footer h1{
   margin: 30px 60px;
@@ -220,8 +265,7 @@ footer a{
 
 @media only screen and (min-width: 1300px) {
 
-    /*--------------Header Start----------------*/
-
+/*--------------Header Start----------------*/
     .topnav {
       width: 30%;
       margin-left: 68%;
@@ -230,8 +274,22 @@ footer a{
     #left-container{
         width:70%;
     }
-    /*--------------Header End----------------*/
+/*--------------Header End----------------*/
 
+
+/*--------------Section Start----------------*/
+section{
+  margin-top: 80px;
+}
+section h2{
+  padding: 35px;
+  font-size: 45px;
+}
+section p{
+  padding: 35px;
+  font-size: 26px;
+}
+/*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
@@ -264,6 +322,19 @@ footer a{
         width:73%;
     }
     /*--------------Header End----------------*/
+
+/*--------------Section Start----------------*/
+section{
+  margin-top: 90px;
+}
+section h2{
+  padding: 40px;
+  font-size: 50px;
+}
+section p{
+  font-size: 30px;
+}
+/*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
