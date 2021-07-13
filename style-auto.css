@@ -91,17 +91,10 @@ section{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-section h2{
-  color: white;
-  text-align: center;
-  margin: 60px 40px 80px;
-  font-size: 28px;
-}
 #info-image-container{
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 5px solid  rgba(20, 97, 211, 0.815);
   background-color: rgba(20, 97, 211, 0.815);
 }
 .image-container{
@@ -111,7 +104,7 @@ section h2{
 .image-container img{
   width: 100%;
   max-height: fit-content;
-  padding: 15px 50px;
+  padding: 20px 50px;
   display: block;
 }
 .info-container{
@@ -130,6 +123,9 @@ section h2{
   padding: 20px 55px;
   font-size: 23px;
   text-align: left;
+}
+.onload-view{
+  display: block;
 }
 #important{
   color:rgb(235, 8, 8);
@@ -256,10 +252,6 @@ section{
   margin-top: 70px;
   margin-bottom: -150px;
 }
-section h2{
-  margin: 60px 40px 80px;
-  font-size: 30px;
-}
 .image-container {
   width: 80%;
   margin: auto;
@@ -309,7 +301,7 @@ footer a{
     }
     #left-container{
         width:66%;
-      }
+    }
 /*--------------Header End----------------*/
 
 
@@ -317,10 +309,6 @@ footer a{
 
 section{
   margin-top: 70px;
-}
-section h2{
-  margin: 60px 40px 80px;
-  font-size: 30px;
 }
 .image-container{
   width: 60%;
@@ -355,10 +343,6 @@ footer a{
 
 @media only screen and (min-width: 1200px) {
 /*--------------Section Start----------------*/
-section h2{
-  margin: 60px 40px 80px;
-  font-size: 32px;
-}
 .info-container h3{
   font-size: 26px;
 }
@@ -394,9 +378,6 @@ footer a{
 /*--------------Header End----------------*/
 
 /*--------------Section Start----------------*/
-section h2{
-  font-size: 35px;
-}
 .info-container h3{
   font-size: 28px;
 }
@@ -437,9 +418,6 @@ footer a{
 /*--------------Header End----------------*/
 
 /*--------------Section Start----------------*/
-section h2{
-  font-size: 38px;
-}
 .info-container h3{
   font-size: 32px;
 }

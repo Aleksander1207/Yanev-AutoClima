@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <title>Yanev Auto Clima</title>
+        <link rel="stylesheet" href="style-polishing.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img src="header-image-mini-dark.jpg" alt="A/C Button " id="dark">
+            <div id="logo-container">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div id="center-container">
+                <h1>Полиране на фарове</h1>
+            </div>
+            
+        </header>
+
+        <div id="menu-container" onclick="toggleNavigation()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+            <div id="left-container">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" >За Нас</a>
+                <a href="services.html" >Услуги</a>
+                <a href="auto-air-conditioner.html">Автоклиматици</a>
+                <a href="#">Вакумиране</a>
+                <a href="ozone.html">Озониране</a>
+                <a href="#">Атом машина</a>
+                <a href="polishing.html" class="active">Полиране на фарове</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+        </nav>
+
+        <section>
+            <div class="info-image-container">
+                <h2>Резултатите от нашата работа: </h2>
+                <div class="image-container fade onload-view">
+                    <img src="f4-before.jpg" alt="lights - before">
+                    <img src="f4-after.jpg" alt="lights - after">
+                </div>
+                <div class="info-container fade onload-view">
+                    <p>
+                        С шофирането на един автомобил се появяват драскотини и замърсявания,
+                        които са още по-досадни и опасни за самите шофьори, когато се намират върху фаровете
+                        или стъклата. Всеки един автомобилист желае да притежава превозно средство,
+                        което да бъде отражение на неговите разбирания за синхрон между външен вид и показатели.
+                        Обикновено хората съдят превозните средства по техните външни белези.
+                        Едни от най-видимите и коментирани белези са фаровете и стъклата на една кола.
+                        Тяхното състояние зависи най-вече от метеорологичните условия, на които са подложени,
+                        както и на поддръжката от нас шофьорите. Голямо е тяхното значение за сигурността на
+                        всички пътници в автомобила, както и в превозните средства около нас.
+                        Без необходимата добра видимост, едва ли можем да си представим комфорта и
+                        спокойствието при всяко едно пътуване.
+                    </p>
+                </div>
+                <div class="image-container fade">
+                    <img src="f6-before.jpg" alt="lights - before">
+                    <img src="f6-after.jpg" alt="lights - after">
+                </div>
+                <div class="info-container fade">
+                    <p>
+                        Всеки един шофьор поне веднъж използва услугата "Полиране на фарове",
+                        защото повечето автомобили в днешно време са произведени с пластмасови фарове,
+                        които потъмняват от слънчевите лъчи и метеорологичните условия и се налага да бъдат рециклирани.
+                        В последните години се появиха доста пасти, които имат предназначението да приведат автостъклата
+                        и фаровете в перфектен външен вид. Оказва се обаче, че не всички начини за извършване на тези услуги
+                        са дълготрайни и достатъчно ефективни, за да отговорят на изискванията на по-взискателните клиенти.
+                        Нашият сервиз използва наша иновативна технология, чрез която гарантираме, че след полирането на стъкла
+                        или фарове, те ще придобият перфектен външен вид и ефекта на услугата ще бъде дълготраен.
+                        Използваните технологии са обвързани само с качествена техника и най-висок клас консумативи
+                        при извършване на услугата, за която клиентите ни получават и гаранция за качество.
+                    </p>
+                </div>
+                <div class="image-container fade">
+                    <img src="f2-before.jpg" alt="lights - before">
+                    <img src="f2-after.jpg" alt="lights - after">
+                </div>
+                <div class="info-container fade">
+                    <p>
+                        Функциите на фаровете са от огромно значение за видимостта и комфорта при шофиране.
+                        В някои случаи неправилното функциониране на автомобилните светлини и фарове бива основна причина
+                        повечето шофьори да си навличат неприятности и дискомфорт при шофиране. 
+                    </p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot active" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+            <img src="ferrari.jpg" alt="ferrari">
+            <h1>Ако имате още въпроси, свържете се с нас !</h1>
+            <a href="contacts.html">Контакти</a>
+        </footer>
+
+    </body>
+</html>

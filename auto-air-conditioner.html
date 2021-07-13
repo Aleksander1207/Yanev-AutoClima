@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
     </head>
-    <body onload="showSlides(1)">
+    <body>
 
         <header>
             <img src="header-image-mini-dark.jpg" alt="A/C Button " id="dark">
@@ -35,19 +35,17 @@
                 <a href="#">Вакумиране</a>
                 <a href="ozone.html">Озониране</a>
                 <a href="#">Атом машина</a>
-                <a href="#">Полиране на фарове</a>
+                <a href="polishing.html">Полиране на фарове</a>
                 <a href="contacts.html">Контакти</a>
             </div>
         </nav>
 
-        <section id="auto">
-            <h2>Зареждане и поддръжка на автоклиматични системи</h2>
-
+        <section>
             <div id="info-image-container">
-                <div class="image-container fade">
+                <div class="image-container fade onload-view">
                     <img src="ac0.jpg" alt="auto-air-conditioner-0">
                 </div> 
-                <div class="info-container fade">
+                <div class="info-container fade onload-view">
                     <h3>Какво представлява автоклиматичната система ?</h3>
                     <p>
                         Климатиците на автомобилите са съставени от няколко елемента: компресор (същността на системата), вътрешен радиатор в купето (т. нар. изпарител),
@@ -109,7 +107,7 @@
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 <br>
                 <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot active" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
                     <span class="dot" onclick="currentSlide(3)"></span> 
                     <span class="dot" onclick="currentSlide(4)"></span> 

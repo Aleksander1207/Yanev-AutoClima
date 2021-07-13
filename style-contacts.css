@@ -104,13 +104,17 @@ section{
     margin-bottom: 10px;
 }
 .contacts-info i{
-    padding: 20px 40px;
+    padding: 20px 60px;
     color: white;
     display: block;
     font-size: 18px;
 }
 .contacts span{
     padding: 30px;
+}
+.contacts-info a{
+    text-decoration: none;
+    color: white;
 }
 
 /*--------------Section End----------------*/
