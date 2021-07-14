@@ -6,14 +6,12 @@
 body{
     background-color:black;
 }
-
 /*--------------Header Start----------------*/
 header{
-    max-width: 100%;
+  max-width: 100%;
 }
 header img{
-    width: 100%;
-    
+  width: 100%;
 }
 #logo-container{
      width: 30%;
@@ -94,69 +92,56 @@ nav{
 
 
 
-  /*--------------Main Start----------------*/
-  .center{
+/*--------------Section Start----------------*/
+  section{
     color:rgb(211, 211, 211);
     text-align: center;
     width: 100%;
     margin-top: -10px;
     margin-bottom: 80px;
   }
-  .center h2{
+  section h2{
     text-transform: uppercase;
     padding: 10px;
     font-size: 30px;
   }
-  .center p{
+  section p{
     font-size: 20px;
     padding: 15px 30px;
     text-align: justify;
   }
-
-
-  /*--------------Main End----------------*/
-
-
+/*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
 footer{
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
 }
 footer img{
-    width: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: translateY(90%);
 }
-.center-footer{
-  display: flex;
-  justify-content: center;
-}
-.center-footer h1{
+footer h1{
   color: white;
   text-align: center;
   font-size: 25px;
   margin: 30px 50px;
   text-transform: uppercase;
-  position: absolute;
-  bottom: -100px;
 }
-.center-footer a{
+footer a{
   background-color: #f44336;
   color: white;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  position: absolute;
-  bottom: -150px;
+  margin: 0 auto;
+  width: 30%;
 }
-.center-footer a:hover, .center-footer a:active {
+footer a:hover, footer a:active {
     background-color: red;
-}
-hr{
-  width: 100%;
-}
-footer p{
-  color: white;
-  text-align: center;
-  margin: 15px auto;
 }
 /*--------------Footer End----------------*/
 
@@ -187,31 +172,32 @@ footer p{
     /*--------------Header End----------------*/
 
 /*--------------Footer Start----------------*/
-    .center-footer h1{
-      margin: 30px 60px;
-      bottom: -150px;
-    }
-    .center-footer a{
-      bottom: -220px;
-      font-size: 18px;
-    }
+footer img{
+  transform: translateY(75%);
+}
+footer h1{
+  margin: 30px 60px;
+}
+footer a{
+  font-size: 18px;
+}
 /*--------------Footer End----------------*/
 }
 
 @media only screen and (min-width: 900px) {
 
   /*--------------Footer Start----------------*/
-  .center-footer h1{
+  footer h1{
     bottom: -200px;
   }
-  .center-footer a{
+  footer a{
     bottom: -280px;
   }
 /*--------------Footer End----------------*/
   
 }
 
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
     /*--------------Header Start----------------*/
     header h1{
@@ -231,127 +217,119 @@ footer p{
     }
     /*--------------Header End----------------*/
 
-    /*--------------Main Start----------------*/
-  .center{
-    margin-top: 40px;
-    margin-bottom: 120px;
-  }
-  .center h2{
-    padding: 10px;
-    font-size: 40px;
-  }
-  .center p{
-    font-size: 24px;
-    padding: 15px 35px;
-  }
-  
-  /*--------------Main End----------------*/
+  /*--------------Section Start----------------*/
+    section{
+      margin-top: 40px;
+      margin-bottom: 120px;
+    }
+    section h2{
+      padding: 10px;
+      font-size: 40px;
+    }
+    section p{
+      font-size: 24px;
+      padding: 15px 35px;
+    }
+    
+  /*--------------Section End----------------*/
 
   /*--------------Footer Start----------------*/
-  .center-footer h1{
-    bottom: -370px;
-    font-size: 30px;
+  footer img{
+    transform: translateY(65%);
   }
-  .center-footer a{
-    bottom: -450px;
-    font-size: 25px;
-  }
-/*--------------Footer End----------------*/
-
-
-  }
-
-  @media only screen and (min-width: 1200px) {
-
-    /*--------------Header Start----------------*/
-    header h1{
-      font-size: 45px;
-      top: -320px;
+    footer h1{
+      bottom: -370px;
+      font-size: 30px;
     }
-    .topnav{
-      width: 34%;
+    footer a{
+      bottom: -450px;
+      font-size: 25px;
     }
-    #left-container{
-      width:66%;
-    }
-
-
-    /*--------------Header End----------------*/
-
-  /*--------------Main Start----------------*/
-  .center{
-    margin-top: 60px;
-    margin-bottom: 160px;
-  }
-  .center h2{
-    font-size: 45px;
-  }
-  .center p{
-    font-size: 28px;
-    padding: 15px 80px;
-  }
-  /*--------------Main End----------------*/
-
-/*--------------Footer Start----------------*/
-   .center-footer h1{
-    bottom: -75%;
-    font-size: 40px;
-  }
-  .center-footer a{
-    bottom: -85%;
-    font-size: 30px;
-  }
-/*--------------Footer End----------------*/
-
-
-    
+  /*--------------Footer End----------------*/
 }
-@media only screen and (min-width: 1500px) {
+
+@media only screen and (min-width: 1200px) {
 
   /*--------------Header Start----------------*/
-  header h1{
-    font-size: 53px;
-    top: -420px;
-    padding: 0 80px;
-  }
-  .topnav{
-    margin-left: 73%;
-    width: 25%;
-  }
-  #left-container{
-    width:75%;
-  }
-  header a{
-    font-size: 35px;
-    top:-130px;
-  }
-/*--------------Header End----------------*/
+      header h1{
+        font-size: 45px;
+        top: -320px;
+      }
+      .topnav{
+        width: 34%;
+      }
+      #left-container{
+        width:66%;
+      }
+  /*--------------Header End----------------*/
 
-/*--------------Main Start----------------*/
-.center{
-  margin-top: 100px;
-  margin-bottom: 220px;
-}
-.center h2{
-  font-size: 45px;
-  margin-bottom: 20px;
-}
-.center p{
-  font-size: 28px;
-  padding: 15px 180px;
-}
-/*--------------Main End----------------*/ 
+  /*--------------Section Start----------------*/
+    section{
+      margin-top: 100px;
+    }
+    section h2{
+      font-size: 45px;
+    }
+    section p{
+      font-size: 28px;
+      padding: 15px 80px;
+    }
+  /*--------------Section End----------------*/
 
-/*--------------Footer Start----------------*/
-   .center-footer h1{
-    bottom: -115%;
+  /*--------------Footer Start----------------*/
+  footer h1{
     font-size: 40px;
   }
-  .center-footer a{
-    bottom: -125%;
+  footer a{
     font-size: 30px;
   }
-/*--------------Footer End----------------*/
+  /*--------------Footer End----------------*/   
+}
 
-  
+
+@media only screen and (min-width: 1500px) {
+  /*--------------Header Start----------------*/
+    header h1{
+      font-size: 53px;
+      top: -420px;
+      padding: 0 80px;
+    }
+    .topnav{
+      margin-left: 73%;
+      width: 25%;
+    }
+    #left-container{
+      width:75%;
+    }
+    header a{
+      font-size: 35px;
+      top:-130px;
+    }
+  /*--------------Header End----------------*/
+
+  /*--------------Section Start----------------*/
+  section{
+    margin-top: 150px;
+  }
+  section h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  section p{
+    font-size: 28px;
+    padding: 15px 180px;
+  }
+  /*--------------Section End----------------*/ 
+
+  /*--------------Footer Start----------------*/
+    footer img{
+      transform: translateY(55%);
+    }
+    footer h1{
+      font-size: 40px;
+    }
+    footer a{
+      font-size: 30px;
+    }
+  /*--------------Footer End----------------*/
 }

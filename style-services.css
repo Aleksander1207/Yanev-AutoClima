@@ -83,7 +83,7 @@ nav{
   }
 /*--------------Header End----------------*/
 
-/*--------------Services Start----------------*/
+/*--------------Section Start----------------*/
 
 #services{
   width: 100%;
@@ -129,7 +129,7 @@ nav{
 }
 
 
-/*--------------Services End----------------*/
+/*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
@@ -188,7 +188,7 @@ footer a:hover, footer a:active {
     }
 /*--------------Header End----------------*/
 
-/*--------------Services Start----------------*/
+/*--------------Section Start----------------*/
 
 #services{
   margin-top: 40px;
@@ -207,7 +207,7 @@ footer a:hover, footer a:active {
   padding: 9px 4px;
   font-size: 19px;
 }
-/*--------------Services End----------------*/
+/*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
@@ -243,7 +243,7 @@ footer a{
     /*--------------Header End----------------*/
 
 
-/*--------------Services Start----------------*/
+/*--------------Section Start----------------*/
 
 #services{
   margin-top: 50px;
@@ -262,7 +262,7 @@ footer a{
   padding: 10px 4px;
   font-size: 22px;
 }
-/*--------------Services End----------------*/
+/*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
 footer h1{
@@ -303,7 +303,7 @@ footer a{
     }
     /*--------------Header End----------------*/
 
-/*--------------Services Start----------------*/
+/*--------------Section Start----------------*/
 
 #services{
   margin-top: 60px;
@@ -315,7 +315,7 @@ footer a{
   font-size: 28px;
   width: 70%;
 }
-/*--------------Services End----------------*/
+/*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
 footer h1{
@@ -348,7 +348,7 @@ footer a{
     }
     /*--------------Header End----------------*/
 
-/*--------------Services Start----------------*/
+/*--------------Section Start----------------*/
 
 #services{
   margin-top: 70px;
@@ -360,7 +360,9 @@ footer a{
   font-size: 29px;
   width: 65%;
 }
-/*--------------Services End----------------*/
+/*--------------Section End----------------*/
+
+
 /*--------------Footer Start----------------*/
 footer h1{
   margin: 30px 60px;

@@ -122,8 +122,8 @@ footer{
 }
 footer img{
   width: 100%;
-  opacity: 0.7;
-  transform: translateY(75%);
+  opacity: 0.5;
+  transform: translateY(90%);
   z-index: -1;
 }
 footer h1{
@@ -188,6 +188,9 @@ p img{
 
 
 /*--------------Footer Start----------------*/
+footer img{
+  transform: translateY(80%);
+}
 footer h1{
   margin: 30px 60px;
 }
@@ -231,6 +234,9 @@ section p{
 /*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
+footer img{
+  transform: translateY(70%);
+}
 footer h1{
   margin: 30px 60px;
   font-size: 33px;
@@ -244,13 +250,16 @@ footer a{
 @media only screen and (min-width: 1200px) {
 /*--------------Section Start----------------*/
 
-  section{
-    transform: translateY(150px);
+section{
+  transform: translateY(150px);
 }
 /*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
+footer img{
+  transform: translateY(65%);
+}
 footer h1{
   margin: 30px 60px;
   font-size: 35px;
@@ -338,6 +347,9 @@ section p{
 
 
 /*--------------Footer Start----------------*/
+footer img{
+  transform: translateY(60%);
+}
 footer h1{
   margin: 30px 60px;
   font-size: 38px;
