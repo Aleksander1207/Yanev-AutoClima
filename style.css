@@ -9,39 +9,43 @@ body{
 /*--------------Header Start----------------*/
 header{
   max-width: 100%;
+  max-height: auto;
 }
 header img{
   width: 100%;
+  opacity: 0.7;
 }
 #logo-container{
-     width: 30%;
-     position: absolute;
-     top: 3%;
-     left:5%;
+  width: 40%;
+  position: absolute;
+  top: 2%;
+  left:4%;
 }
 #logo-container img{
-    width: 100%;
+  width: 100%;
+  opacity: 1;
+}
+#center-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateY(-110%);
 }
 header h1{
     color: white;
     text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: -100px;
-    margin: 20px;
+    font-size: 12px;
+    margin: 10px 30px;
     text-transform: uppercase;
-}
-#center-container{
-    display: flex;
-    justify-content: center;
-    transform: translateY(-80px);
 }
 header a{
   background-color: #f44336;
   color: white;
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
+  margin: 0px auto;
+  font-size: 10px;
 }
 header a:hover, header a:active {
     background-color: red;
@@ -52,18 +56,18 @@ nav{
 #menu-container{
     color:white;
     position: absolute;
-    top: 40px;
+    top: 25px;
     left:85%;
-
 }
 #menu-container i{
-    font-size: 35px;
+  font-size: 20px;
 }
 .topnav {
     display: none;
     width: 100%;
     position: absolute;
     top: 90px;
+    z-index: 2;
 }
   
   .topnav a {
@@ -88,7 +92,7 @@ nav{
     color: white;
   }
 
-  /*--------------Header End----------------*/
+/*--------------Header End----------------*/
 
 
 
@@ -97,18 +101,19 @@ nav{
     color:rgb(211, 211, 211);
     text-align: center;
     width: 100%;
-    margin-top: -10px;
-    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-5%);
   }
   section h2{
     text-transform: uppercase;
-    padding: 10px;
-    font-size: 30px;
+    padding: 3px;
+    font-size: 20px;
   }
   section p{
-    font-size: 20px;
-    padding: 15px 30px;
-    text-align: justify;
+    font-size: 15px;
+    padding: 10px 30px;
+    text-align: left;
   }
 /*--------------Section End----------------*/
 
@@ -117,44 +122,196 @@ footer{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: -200px;
+    margin-top: -50px;
 }
 footer img{
   width: 100%;
   z-index: -1;
-  transform: translateY(90%);
+  transform: translateY(100%);
 }
 footer h1{
   color: white;
   text-align: center;
-  font-size: 25px;
-  margin: 30px 50px;
+  font-size: 13px;
+  margin: 25px 40px 10px;
   text-transform: uppercase;
 }
 footer a{
   background-color: #f44336;
   color: white;
-  padding: 15px 25px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
+  font-size: 12px;
   margin: 0 auto;
-  width: 30%;
+  width: 35%;
 }
 footer a:hover, footer a:active {
     background-color: red;
 }
 /*--------------Footer End----------------*/
 
+@media screen and (min-width: 320px) {
+  /*--------------Header Start----------------*/
+  #center-container{
+    transform: translateY(-118%);
+  }
+  header h1{
+    font-size: 14px;
+  }
+  header a{
+    font-size: 12px;
+  }
+  /*--------------Header End----------------*/
+
+  /*--------------Section Start----------------*/
+  section h2{
+    font-size: 24px;
+  }
+  section p{
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+/*--------------Section End----------------*/
+
+/*--------------Footer Start----------------*/
+footer h1{
+  font-size: 15px;
+}
+footer a{
+  font-size: 13px;
+}
+/*--------------Footer End----------------*/
 
 
-  @media screen and (min-width: 768px) {
-    /*--------------Header Start----------------*/
+}
+
+
+@media screen and (min-width: 400px) {
+  /*--------------Header Start----------------*/
+  #center-container{
+    transform: translateY(-125%);
+  }
+  header h1{
+    font-size: 16px;
+  }
+  header a{
+    font-size: 14px;
+  }
+  #menu-container{
+    top:28px
+  }
+  #menu-container i{
+    font-size: 25px;
+  }
+  #logo-container{
+    left:3%;
+  }
+  /*--------------Header End----------------*/
+
+  /*--------------Footer Start----------------*/
+  footer h1{
+    font-size: 17px;
+  }
+  footer a{
+    font-size: 15px;
+  }
+  /*--------------Footer End----------------*/
+
+
+}
+
+
+@media screen and (min-width: 500px) {
+  /*--------------Header Start----------------*/
+  header h1{
+    font-size: 20px;
+    margin: 20px 30px;
+  }
+  header a{
+    font-size: 18px;
+  }
+  #menu-container{
+    top:30px
+  }
+  #menu-container i{
+    font-size: 30px;
+  }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  section{
+    transform: translateY(-10%);
+  }
+  section h2{
+    font-size: 30px;
+  }
+  section p{
+    font-size: 22px;
+    padding: 15px 30px;
+  }
+/*--------------Section End----------------*/
+
+
+  
+  /*--------------Footer Start----------------*/
+  footer img{
+    transform: translateY(80%);
+  }
+  footer h1{
+    font-size: 20px;
+  }
+  footer a{
+    font-size: 18px;
+  }
+  /*--------------Footer End----------------*/
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+  /*--------------Header Start----------------*/
+  header h1{
+    font-size: 26px;
+    margin: 20px 35px;
+  }
+  header a{
+    font-size: 20px;
+  }
+  #menu-container i{
+    font-size: 40px;
+  }
+  /*--------------Header End----------------*/
+
+
+   /*--------------Footer Start----------------*/
+  footer img{
+    transform: translateY(70%);
+  }
+  footer h1{
+    font-size: 25px;
+  }
+  footer a{
+    font-size: 20px;
+  }
+  /*--------------Footer End----------------*/
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+  /*--------------Header Start----------------*/
     header h1{
-      font-size: 30px;
-      top: -180px;
+      font-size: 28px;
+    }
+    header a{
+      font-size: 24px;
     }
     .topnav{
-      top: 10%;
+      top: 12%;
       width: 38%;
       margin-left: 60%;
     }
@@ -168,82 +325,85 @@ footer a:hover, footer a:active {
     }
     #center-container{
       width: 50%;
+      transform: translateY(-115%);
     }
-    /*--------------Header End----------------*/
+  /*--------------Header End----------------*/
+
+  /*--------------Section Start----------------*/
+    section{
+      transform: translateY(-25%);
+    }
+    section h2{
+      font-size: 35px;
+    }
+    section p{
+      font-size: 24px;
+      padding: 15px 35px;
+    }
+  /*--------------Section End----------------*/
+
+  
 
 /*--------------Footer Start----------------*/
+footer{
+  margin-top: -150px;
+}
 footer img{
   transform: translateY(75%);
 }
 footer h1{
-  margin: 30px 60px;
+  font-size: 32px;
+  margin: 30px 70px;
 }
 footer a{
-  font-size: 18px;
+  font-size: 25px;
 }
 /*--------------Footer End----------------*/
-}
-
-@media only screen and (min-width: 900px) {
-
-  /*--------------Footer Start----------------*/
-  footer h1{
-    bottom: -200px;
-  }
-  footer a{
-    bottom: -280px;
-  }
-/*--------------Footer End----------------*/
-  
 }
 
 @media only screen and (min-width: 992px) {
 
-    /*--------------Header Start----------------*/
+  /*--------------Header Start----------------*/
     header h1{
-      font-size: 40px;
-      top: -270px;
+      font-size: 38px;
     }
     header a{
-      font-size: 25px;
-      position: absolute;
-      top:-40px;
+      font-size: 28px;
+    }
+    #menu-container{
+      top:50px
     }
     #menu-container i{
       font-size: 50px;
     }
     .topnav {
-      top:12%;
+      top:18%;
     }
-    /*--------------Header End----------------*/
+  /*--------------Header End----------------*/
 
   /*--------------Section Start----------------*/
     section{
-      margin-top: 40px;
-      margin-bottom: 120px;
+      transform: translateY(-30%);
     }
     section h2{
       padding: 10px;
       font-size: 40px;
     }
     section p{
-      font-size: 24px;
-      padding: 15px 35px;
+      font-size: 26px;
     }
-    
   /*--------------Section End----------------*/
 
   /*--------------Footer Start----------------*/
-  footer img{
-    transform: translateY(65%);
-  }
+    footer img{
+      transform: translateY(60%);
+    }
     footer h1{
-      bottom: -370px;
-      font-size: 30px;
+      font-size: 34px;
     }
     footer a{
-      bottom: -450px;
-      font-size: 25px;
+      font-size: 27px;
+      width: 25%;
     }
   /*--------------Footer End----------------*/
 }
@@ -251,9 +411,14 @@ footer a{
 @media only screen and (min-width: 1200px) {
 
   /*--------------Header Start----------------*/
+      #center-container{
+        transform: translateY(-123%);
+      }
       header h1{
-        font-size: 45px;
-        top: -320px;
+        font-size: 43px;
+      }
+      header a{
+        padding: 15px 45px;
       }
       .topnav{
         width: 34%;
@@ -261,12 +426,12 @@ footer a{
       #left-container{
         width:66%;
       }
+      #menu-container{
+        top: 60px;
+      }
   /*--------------Header End----------------*/
 
   /*--------------Section Start----------------*/
-    section{
-      margin-top: 100px;
-    }
     section h2{
       font-size: 45px;
     }
@@ -291,11 +456,11 @@ footer a{
   /*--------------Header Start----------------*/
     header h1{
       font-size: 53px;
-      top: -420px;
       padding: 0 80px;
     }
     .topnav{
       margin-left: 73%;
+      top:20%;
       width: 25%;
     }
     #left-container{
@@ -303,20 +468,25 @@ footer a{
     }
     header a{
       font-size: 35px;
-      top:-130px;
+    }
+    #menu-container{
+      top: 70px;
+    }
+    #menu-container i{
+      font-size: 60px;
     }
   /*--------------Header End----------------*/
 
   /*--------------Section Start----------------*/
   section{
-    margin-top: 150px;
+    transform: translateY(-45%);
   }
   section h2{
-    font-size: 45px;
+    font-size: 55px;
     margin-bottom: 20px;
   }
   section p{
-    font-size: 28px;
+    font-size: 32px;
     padding: 15px 180px;
   }
   /*--------------Section End----------------*/ 
@@ -326,10 +496,10 @@ footer a{
       transform: translateY(55%);
     }
     footer h1{
-      font-size: 40px;
+      font-size: 45px;
     }
     footer a{
-      font-size: 30px;
+      font-size: 35px;
     }
   /*--------------Footer End----------------*/
 }
