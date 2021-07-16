@@ -193,29 +193,30 @@ footer{
   max-width: 100%;  
   display: flex;
   flex-direction: column;
-  margin-top: -60px;
+  transform: translateY(30%);
 }
 footer img{
   width: 100%;
-  opacity: 0.4;
-  transform: translateY(80%);
+  opacity: 0.7;
+  transform: translateY(100%);
   z-index: -1;
 }
 footer h1{
   color: white;
   text-align: center;
-  font-size: 25px;
-  margin: 30px 50px;
+  font-size: 13px;
+  margin: 25px 40px 10px;
   text-transform: uppercase;
 }
 footer a{
   background-color: #f44336;
   color: white;
-  padding: 15px 25px;
+  padding: 10px 25px;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
-  width: 30%;
+  width: 35%;
+  font-size: 12px;
 }
 footer a:hover, footer a:active {
   background-color: red;
@@ -247,6 +248,22 @@ footer a:hover, footer a:active {
     padding: 14px;
   }
   /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer{
+    transform: none;
+  }
+  footer img{
+    transform: translateY(100%);
+  }
+  footer h1{
+    font-size: 15px;
+  }
+  footer a{
+    font-size: 13px;
+  }
+  /*--------------Footer End----------------*/
 
 }
 
@@ -282,6 +299,19 @@ footer a:hover, footer a:active {
     bottom: 5%;
   }
   /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer img{
+    transform: translateY(80%);
+  }
+  footer h1{
+    font-size: 17px;
+  }
+  footer a{
+    font-size: 15px;
+  }
+  /*--------------Footer End----------------*/
 }
 
 
@@ -309,10 +339,23 @@ footer a:hover, footer a:active {
     font-size: 23px;
   }
   .prev, .next{
-    bottom: 10%;
+    bottom: -15%;
     font-size: 22px;
   }
   /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer img{
+    transform: translateY(70%);
+  }
+  footer h1{
+    font-size: 20px;
+  }
+  footer a{
+    font-size: 18px;
+  }
+/*--------------Footer End----------------*/
 
 }
 
@@ -330,17 +373,26 @@ footer a:hover, footer a:active {
 
   /*--------------Section Start----------------*/
   .info-container h3{
-    font-size: 28px;
+    font-size: 30px;
     padding: 10px 65px;
   }
   .info-container p{
     font-size: 23px;
   }
   .prev, .next{
-    bottom: -10%;
-    font-size: 22px;
+    bottom: -45%;
   }
   /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer h1{
+    font-size: 25px;
+  }
+  footer a{
+    font-size: 20px;
+  }
+/*--------------Footer End----------------*/
 }
 
 
@@ -371,21 +423,16 @@ footer a:hover, footer a:active {
 
 
 /*--------------Section Start----------------*/
-
-section{
-  margin-bottom: -150px;
-}
 .image-container {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 .info-container h3{
-  padding: 10px 60px;
-  font-size: 22px;
+  font-size: 32px;
 }
 .info-container p{
   padding: 20px 65px;
-  font-size: 20px;  
+  font-size: 24px;  
 }
 .dot {
   height: 17px;
@@ -397,7 +444,7 @@ section{
 
 /*--------------Footer Start----------------*/
 footer img{
-  transform: translateY(63%);
+  transform: translateY(55%);
 }
 footer h1{
   margin: 30px 60px;
@@ -443,12 +490,13 @@ footer a{
 }
 .prev, .next{
   bottom:10%;
+  font-size: 30px;
 }
 /*--------------Section End----------------*/
 
 /*--------------Footer Start----------------*/
 footer img{
-  transform: translateY(55%);
+  transform: translateY(50%);
 }
 footer h1{
   margin: 30px 60px;
@@ -456,6 +504,7 @@ footer h1{
 }
 footer a{
   font-size: 24px;
+  width: 30%;
 }
 /*--------------Footer End----------------*/
 }
@@ -484,16 +533,20 @@ footer a{
 /*--------------Section Start----------------*/
 .info-container h3{
   font-size: 26px;
+  text-align: left;
 }
 .info-container p{
   font-size: 22px;  
+}
+.prev, .next{
+  bottom: -20%;
 }
 /*--------------Section End----------------*/
 
 
 /*--------------Footer Start----------------*/
 footer img{
-  transform: translateY(50%);
+  transform: translateY(40%);
 }
 footer h1{
   margin: 30px 60px;
@@ -566,7 +619,7 @@ footer a{
 
 /*--------------Footer Start----------------*/
 footer img{
-  transform: translateY(40%);
+  transform: translateY(35%);
 }
 footer h1{
   margin: 30px 60px;
