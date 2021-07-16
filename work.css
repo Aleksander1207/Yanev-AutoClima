@@ -335,6 +335,108 @@ text-align: center;
 /*--------------Footer End----------------*/
 }
 
+@media screen and (min-width: 600px) {
+  /*--------------Header Start----------------*/
+
+header h1{
+   font-size: 30px;
+   top: -30px;
+   margin: 20px;
+}
+#center-container{
+   display: flex;
+   justify-content: center;
+   transform: translateY(-80px);
+}
+nav{
+   max-width: 100%;
+}
+#menu-container{
+   color:white;
+   position: absolute;
+   top: 40px;
+   left:85%;
+
+}
+#menu-container i{
+   font-size: 35px;
+}
+.topnav {
+   width: 100%;
+   top: 90px;
+}
+ 
+ .topnav a {
+   text-align: center;
+   padding: 12px;
+   font-size: 14px;
+   width: 100%;
+ }
+/*--------------Header End----------------*/
+
+
+/*--------------Work Start----------------*/
+
+section{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: -150px;
+  
+}
+.paragraph{
+  color: white;
+  background-color: black;    
+  padding: 10px 30px;
+ font-size: 20px;
+ border-radius: 5px;
+ margin-inline:30px;
+
+}
+section h2{
+  color:white;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.arrow-icon{
+
+margin-left:48%;
+
+
+}
+section a{
+text-align: center;
+text-decoration: none;
+width:60%;
+margin-inline: 20%;
+font-size: 22px;
+}
+
+
+/*--------------Work End----------------*/
+
+
+/*--------------Footer Start----------------*/
+footer{
+  max-width: 100%;  
+
+}
+
+footer h1{
+  font-size: 25px;
+  margin: 30px 50px;
+
+}
+footer a{
+  padding: 15px 25px;
+  margin: 0 auto;
+  width: 30%;
+
+}
+/*--------------Footer End----------------*/
+}
+
 
 @media screen and (min-width: 768px) {
     /*--------------Header Start----------------*/

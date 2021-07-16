@@ -121,7 +121,7 @@ section{
 }
 .info-container p{
   color: white;
-  padding: 20px 45px;
+  padding: 20px 55px;
   font-size: 18px;
 }
 .onload-view{
@@ -142,6 +142,7 @@ section{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  border: 1px solid white;
 }
 .next {
   right: 0;
@@ -235,7 +236,16 @@ footer a:hover, footer a:active {
 
 
   /*--------------Section Start----------------*/
-  
+  .info-container h3{
+    padding: 10px 50px;
+    font-size: 24px;
+  }
+  .info-container p{
+    font-size: 20px;
+  }
+  .prev, .next {
+    padding: 14px;
+  }
   /*--------------Section End----------------*/
 
 }
@@ -259,6 +269,19 @@ footer a:hover, footer a:active {
     left:3%;
   }
   /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  .info-container h3{
+    font-size: 26px;
+  }
+  .info-container p{
+    font-size: 22px;
+  }
+  .prev, .next{
+    bottom: 5%;
+  }
+  /*--------------Section End----------------*/
 }
 
 
@@ -276,6 +299,21 @@ footer a:hover, footer a:active {
   }
   /*--------------Header End----------------*/
 
+
+  /*--------------Section Start----------------*/
+  .info-container h3{
+    font-size: 28px;
+    padding: 10px 65px;
+  }
+  .info-container p{
+    font-size: 23px;
+  }
+  .prev, .next{
+    bottom: 10%;
+    font-size: 22px;
+  }
+  /*--------------Section End----------------*/
+
 }
 
 
@@ -288,6 +326,21 @@ footer a:hover, footer a:active {
     font-size: 40px;
   }
   /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  .info-container h3{
+    font-size: 28px;
+    padding: 10px 65px;
+  }
+  .info-container p{
+    font-size: 23px;
+  }
+  .prev, .next{
+    bottom: -10%;
+    font-size: 22px;
+  }
+  /*--------------Section End----------------*/
 }
 
 
