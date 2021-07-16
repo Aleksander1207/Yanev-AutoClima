@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+
+/*--------------Header Start----------------*/
+header{
+  max-width: 100%;
+  max-height: auto;
+}
+header img{
+  width: 100%;
+  opacity: 0.7;
+}
+#logo-container{
+  width: 40%;
+  position: absolute;
+  top: 2%;
+  left:4%;
+}
+#logo-container img{
+  width: 100%;
+  opacity: 1;
+}
+#center-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateY(-110%);
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 30px;
+    text-transform: uppercase;
+}
+nav{
+    max-width: 100%;
+}
+#menu-container{
+    color:white;
+    position: absolute;
+    top: 25px;
+    left:85%;
+}
+#menu-container i{
+  font-size: 20px;
+}
+.topnav {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    z-index: 2;
+}
+  .topnav a {
+    color: rgba(41,40,84,255);
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgba(41,40,84,255);
+    color: white;
+  }
+/*--------------Header End----------------*/
+
+/*--------------Section Start----------------*/
+
+section{
+  width: 100%;
+  margin-top: 25px;
+}
+.dropdown-container{
+  margin: 13px auto;
+  width: 100%;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.dropdown-btn{
+  color: white;
+  background-color: rgba(20, 97, 211, 0.815);
+  border: 3px solid rgba(20, 97, 211, 0.815);
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 87%;
+  text-align: left;
+  cursor: pointer;
+}
+.fa-plus, .fa-minus{
+  padding: 3px;
+}
+.dropdown-content{
+  margin: 18px;
+  border: 4px solid rgba(20, 97, 211, 0.815);
+  display: none;
+  border-radius: 5px;
+}
+.dropdown-content h4{
+  color:rgb(196, 196, 196);
+  text-align: center;
+  padding: 7px 8px;
+  font-size: 14px;
+}
+/*--------------Section End----------------*/
+
+
+/*--------------Footer Start----------------*/
+footer{
+  max-width: 100%;  
+  display: flex;
+  flex-direction: column;
+  transform: translateY(30%);
+}
+footer img{
+  width: 100%;
+  opacity: 0.7;
+  transform: translateY(100%);
+  z-index: -1;
+}
+footer h1{
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  margin: 25px 40px 10px;
+  text-transform: uppercase;
+}
+footer a{
+  background-color: #f44336;
+  color: white;
+  padding: 10px 25px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 35%;
+  font-size: 12px;
+}
+footer a:hover, footer a:active {
+  background-color: red;
+}
+/*--------------Footer End----------------*/
+
+
+
+@media screen and (min-width: 320px) {
+  /*--------------Header Start----------------*/
+  #center-container{
+    transform: translateY(-118%);
+  }
+  header h1{
+    font-size: 20px;
+  }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  .dropdown-btn{
+    font-size: 14px;
+  }
+  .fa-plus, .fa-minus{
+    padding: 4px;
+  }
+  .dropdown-content h4{
+    padding: 9px 8px;
+    font-size: 16px;
+  }
+  /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer{
+    transform: none;
+  }
+  footer img{
+    transform: translateY(100%);
+  }
+  footer h1{
+    font-size: 15px;
+  }
+  footer a{
+    font-size: 13px;
+  }
+  /*--------------Footer End----------------*/
+
+}
+
+@media screen and (min-width: 400px) {
+  /*--------------Header Start----------------*/
+  #center-container{
+    transform: translateY(-125%);
+  }
+  header h1{
+    font-size: 24px;
+  }
+  #menu-container{
+    top:28px
+  }
+  #menu-container i{
+    font-size: 25px;
+  }
+  #logo-container{
+    left:3%;
+  }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  .dropdown-btn{
+    font-size: 18px;
+  }
+  .fa-plus, .fa-minus{
+    padding: 5px;
+  }
+  .dropdown-content h4{
+    font-size: 18px;
+  }
+  /*--------------Section End----------------*/
+
+  /*--------------Footer Start----------------*/
+  footer img{
+    transform: translateY(80%);
+  }
+  footer h1{
+    font-size: 17px;
+  }
+  footer a{
+    font-size: 15px;
+  }
+  /*--------------Footer End----------------*/
+}
+
+
+@media screen and (min-width: 500px) {
+  /*--------------Header Start----------------*/
+  header h1{
+    font-size: 27px;
+    margin: 20px 30px;
+  }
+  #menu-container{
+    top:30px
+  }
+  #menu-container i{
+    font-size: 30px;
+  }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+    .dropdown-btn{
+      font-size: 22px;
+    }
+    .fa-plus, .fa-minus{
+      padding: 6px;
+    }
+    .dropdown-content h4{
+      font-size: 20px;
+    }
+  /*--------------Section End----------------*/
+
+  /*--------------Footer Start----------------*/
+    footer h1{
+      font-size: 20px;
+    }
+    footer a{
+      font-size: 18px;
+    }
+  /*--------------Footer End----------------*/
+}
+
+
+
+@media screen and (min-width: 600px) {
+  /*--------------Header Start----------------*/
+  header h1{
+    font-size: 32px;
+  }
+  #menu-container i{
+    font-size: 40px;
+  }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+  .dropdown-btn{
+    font-size: 24px;
+  }
+  .fa-plus, .fa-minus{
+    padding: 7px;
+  }
+  .dropdown-content h4{
+    font-size: 22px;
+  }
+  /*--------------Section End----------------*/
+
+  /*--------------Footer Start----------------*/
+    footer h1{
+      font-size: 25px;
+    }
+    footer a{
+      font-size: 20px;
+    }
+  /*--------------Footer End----------------*/
+}
+
+
+
+@media screen and (min-width: 768px) {
+  /*--------------Header Start----------------*/
+     header h1{
+      font-size: 40px;
+    }
+    .topnav{
+      top: 12%;
+      width: 38%;
+      margin-left: 60%;
+    }
+    #left-container{
+      width:62%;
+      float: left;
+    }
+    .topnav a {
+      font-size: 22px;
+      padding: 16px;
+    }
+    #center-container{
+      transform: translateY(-115%);
+    }
+  /*--------------Header End----------------*/
+
+
+
+  /*--------------Section Start----------------*/
+
+    section{
+      margin-top: 40px;
+    }
+    .dropdown-container{
+      margin: 25px auto;
+    }
+    .dropdown-content{
+      margin: 18px;
+    }
+    .dropdown-btn{
+      font-size: 22px;
+      width: 77%;
+    }
+    .dropdown-content h4{
+      padding: 9px 4px;
+      font-size: 19px;
+    }
+  /*--------------Section End----------------*/
+
+
+  /*--------------Footer Start----------------*/
+  footer h1{
+    margin: 30px 60px;
+    font-size: 27px;
+  }
+  footer a{
+    font-size: 22px;
+  }
+  /*--------------Footer End----------------*/
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    /*--------------Header Start----------------*/
+    header h1{
+      font-size: 48px;
+    }
+    #menu-container{
+      top:50px
+    }
+    #menu-container i{
+      font-size: 50px;
+    }
+    .topnav {
+      top:18%;
+    }
+  /*--------------Header End----------------*/
+
+
+  /*--------------Section Start----------------*/
+
+    section{
+      margin-top: 50px;
+    }
+    .dropdown-container{
+      margin: 30px auto;
+    }
+    .dropdown-content{
+      margin: 22px 50px;
+    }
+    .dropdown-btn{
+      font-size: 25px;
+      width: 73%;
+    }
+    .dropdown-content h4{
+      padding: 10px 4px;
+      font-size: 22px;
+    }
+  /*--------------Section End----------------*/
+
+/*--------------Footer Start----------------*/
+footer img{
+  transform: translateY(50%);
+}
+footer h1{
+  margin: 30px 60px;
+  font-size: 33px;
+}
+footer a{
+  font-size: 24px;
+  width: 30%;
+}
+/*--------------Footer End----------------*/
+}
+
+@media only screen and (min-width: 1200px) {
+ /*--------------Header Start----------------*/
+  #center-container{
+    transform: translateY(-123%);
+  }
+  header h1{
+    font-size: 50px;
+  }
+  .topnav{
+    width: 34%;
+  }
+  #left-container{
+    width:66%;
+  }
+  #menu-container{
+    top: 60px;
+  }
+/*--------------Header End----------------*/
+
+/*--------------Footer Start----------------*/
+footer h1{
+  margin: 30px 60px;
+  font-size: 35px;
+}
+footer a{
+  font-size: 26px;
+  width: 25%;
+}
+/*--------------Footer End----------------*/
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+    /*--------------Header Start----------------*/
+
+    .topnav {
+      width: 30%;
+      margin-left: 68%;
+
+    }
+    #left-container{
+        width:70%;
+    }
+    /*--------------Header End----------------*/
+
+  /*--------------Section Start----------------*/
+    section{
+      margin-top: 60px;
+    }
+    .dropdown-content{
+      margin: 25px 100px;
+    }
+    .dropdown-btn{
+      font-size: 28px;
+      width: 70%;
+    }
+  /*--------------Section End----------------*/
+
+  /*--------------Footer Start----------------*/
+  footer h1{
+    margin: 30px 60px;
+    font-size: 37px;
+  }
+  footer a{
+    font-size: 26px;
+  }
+  /*--------------Footer End----------------*/
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+  /*--------------Header Start----------------*/
+    header h1{
+      font-size: 60px;
+    }
+    .topnav{
+      margin-left: 73%;
+      top:20%;
+      width: 25%;
+    }
+    #left-container{
+      width:75%;
+    }
+    #menu-container{
+      top: 70px;
+    }
+    #menu-container i{
+      font-size: 60px;
+    }
+  /*--------------Header End----------------*/
+
+  /*--------------Section Start----------------*/
+    section{
+      margin-top: 70px;
+    }
+    .dropdown-content{
+      margin: 30px 120px;
+    }
+    .dropdown-btn{
+      font-size: 29px;
+      width: 65%;
+    }
+  /*--------------Section End----------------*/
+
+
+/*--------------Footer Start----------------*/
+footer h1{
+  margin: 30px 60px;
+  font-size: 39px;
+}
+footer a{
+  font-size: 28px;
+  width: 23%;
+}
+/*--------------Footer End----------------*/
+}
