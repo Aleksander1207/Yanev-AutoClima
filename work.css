@@ -7,7 +7,7 @@ body{
     background-color:black;
 }
 
-/*--------------Header Start----------------*/
+/* --------------Header Start----------------*/
 header{
     max-width: 100%;
 }
@@ -81,7 +81,7 @@ nav{
     background-color: rgba(41,40,84,255);
     color: white;
   }
-/*--------------Header End----------------*/
+/*--------------Header End---------------- */
 
 /*--------------Work Start----------------*/
 
@@ -144,7 +144,7 @@ footer{
 }
 footer img{
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
   transform: translateY(84%);
   z-index: -1;
 }
@@ -169,6 +169,171 @@ footer a:hover, footer a:active {
 }
 /*--------------Footer End----------------*/
 
+@media screen and (min-width: 280px) {
+  /*--------------Header Start----------------*/
+
+  header h1{
+    font-size: 18px;
+    top: 25px;
+    
+  }
+  .topnav{
+    top: 10%;
+    width: 100%;
+    
+  }
+  #left-container{
+    width:62%;
+    float: left;
+  }
+  .topnav a {
+    
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+  }
+/*--------------Header End----------------*/
+
+/*--------------Work Start----------------*/
+
+section{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  
+}
+
+
+.paragraph{
+padding: 10px 22px;
+font-size: 15px;
+margin-left:20px;
+margin-right:20px;
+}
+section h2{
+
+font-size: 16px;
+padding:5px;
+}
+
+.arrow-icon{
+
+margin-bottom: 5px;
+color:white;
+display: inline-block;
+padding: 3px;
+margin-left:42%;
+text-align: center;
+
+}
+
+
+section a{
+
+  border-radius: 5px;
+
+  text-align: center;
+  text-decoration: none;
+  width:60%;
+  margin-inline: 20%;
+  padding: 15px 25px;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+/*--------------Work End----------------*/
+
+
+/*--------------Footer Start----------------*/
+footer h1{
+font-size: 14px;
+margin: 8px 25px;
+}
+footer a{
+font-size: 14px;
+text-align: center;
+}
+/*--------------Footer End----------------*/
+}
+
+@media screen and (min-width: 400px) {
+  /*--------------Header Start----------------*/
+
+  header h1{
+    font-size: 24px;
+    top: 10px;
+    
+  }
+  .topnav{
+    top: 10%;
+    width: 100%;
+    
+  }
+  #left-container{
+    width:62%;
+    float: left;
+  }
+  .topnav a {
+    
+    font-weight: bold;
+    text-align: center;
+    padding: 10px; /*--------------Потенциална грешка----------------*/
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+  }
+/*--------------Header End----------------*/
+
+/*--------------Work Start----------------*/
+
+section{
+  width: 100%;
+  margin-bottom: -70px;
+  
+}
+
+
+.paragraph{
+padding: 10px 20px;
+font-size: 15px;
+margin-left:20px;
+margin-right:20px;
+}
+section h2{
+
+font-size: 20px;
+padding:5px;
+}
+
+.arrow-icon{
+
+padding: 3px;
+margin-left:45%;
+}
+
+
+
+/*--------------Work End----------------*/
+
+
+/*--------------Footer Start----------------*/
+footer h1{
+font-size: 20px;
+margin: 8px 25px;
+}
+footer a{
+font-size: 14px;
+text-align: center;
+}
+/*--------------Footer End----------------*/
+}
 
 
 @media screen and (min-width: 768px) {
@@ -216,7 +381,8 @@ section a{
 width: 30%;
 font-size: 20px;
 padding: 15px 25px;
-
+width:60%;
+margin-inline: 20%;
 }
 
 
@@ -319,12 +485,14 @@ section h2{
 .arrow-icon{
 padding: 3px;
 margin-bottom: 10px;
+margin-left:48%;
 }
 section a{
 
 font-size: 24px;
 padding: 15px 25px;
-
+width:40%;
+margin-inline: 30%;
 
 }
 
@@ -383,9 +551,10 @@ margin-bottom: 10px;
 
 }
 section a{
-margin-left:35%;
 font-size: 24px;
 padding: 15px 25px;
+width:30%;
+margin-inline: 35%;
 
 }
 
@@ -429,10 +598,10 @@ section h2{
 }
 
 section a{
-margin-left:35%;
 font-size: 26px;
 padding: 15px 25px;
-
+width:30%;
+margin-inline: 35%;
 }
 
 
