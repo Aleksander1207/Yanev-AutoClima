@@ -2,43 +2,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     background-color:black;
 }
 
-/* --------------Header Start----------------*/
+/*--------------Header Start----------------*/
 header{
-    max-width: 100%;
+  max-width: 100%;
+  max-height: auto;
 }
 header img{
-    width: 100%;
-}
-#dark{
-    opacity: 0.6;
+  width: 100%;
+  opacity: 0.7;
 }
 #logo-container{
-     width: 30%;
-     position: absolute;
-     top: 3%;
-     left:3%;
+  width: 40%;
+  position: absolute;
+  top: 2%;
+  left:4%;
 }
 #logo-container img{
-    width: 100%;
+  width: 100%;
+  opacity: 1;
+}
+#center-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateY(-110%);
 }
 header h1{
     color: white;
     text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: -30px;
-    margin: 20px;
+    font-size: 16px;
+    margin: 10px 30px;
     text-transform: uppercase;
-}
-#center-container{
-    display: flex;
-    justify-content: center;
-    transform: translateY(-80px);
 }
 nav{
     max-width: 100%;
@@ -46,20 +46,19 @@ nav{
 #menu-container{
     color:white;
     position: absolute;
-    top: 40px;
+    top: 25px;
     left:85%;
-
 }
 #menu-container i{
-    font-size: 35px;
+  font-size: 20px;
 }
 .topnav {
     display: none;
     width: 100%;
     position: absolute;
     top: 90px;
+    z-index: 2;
 }
-  
   .topnav a {
     color: rgba(41,40,84,255);
     font-weight: bold;
@@ -81,7 +80,7 @@ nav{
     background-color: rgba(41,40,84,255);
     color: white;
   }
-/*--------------Header End---------------- */
+/*--------------Header End----------------*/
 
 /*--------------Work Start----------------*/
 
@@ -170,33 +169,6 @@ footer a:hover, footer a:active {
 /*--------------Footer End----------------*/
 
 @media screen and (min-width: 280px) {
-  /*--------------Header Start----------------*/
-
-  header h1{
-    font-size: 18px;
-    top: 25px;
-    
-  }
-  .topnav{
-    top: 10%;
-    width: 100%;
-    
-  }
-  #left-container{
-    width:62%;
-    float: left;
-  }
-  .topnav a {
-    
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 16px;
-    background-color: white;
-    width: 100%;
-  }
-/*--------------Header End----------------*/
 
 /*--------------Work Start----------------*/
 
@@ -262,33 +234,35 @@ text-align: center;
 /*--------------Footer End----------------*/
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   /*--------------Header Start----------------*/
-
+  #center-container{
+    transform: translateY(-118%);
+  }
   header h1{
-    font-size: 24px;
-    top: 10px;
-    
+    font-size: 20px;
   }
-  .topnav{
-    top: 10%;
-    width: 100%;
-    
-  }
-  #left-container{
-    width:62%;
-    float: left;
-  }
-  .topnav a {
-    
-    font-weight: bold;
-    text-align: center;
-    padding: 10px; /*--------------Потенциална грешка----------------*/
-    text-decoration: none;
-    font-size: 16px;
-    background-color: white;
-    width: 100%;
-  }
+  /*--------------Header End----------------*/
+
+}
+
+@media screen and (min-width: 400px) {
+ /*--------------Header Start----------------*/
+ #center-container{
+  transform: translateY(-125%);
+}
+header h1{
+  font-size: 24px;
+}
+#menu-container{
+  top:28px
+}
+#menu-container i{
+  font-size: 25px;
+}
+#logo-container{
+  left:3%;
+}
 /*--------------Header End----------------*/
 
 /*--------------Work Start----------------*/
@@ -335,43 +309,31 @@ text-align: center;
 /*--------------Footer End----------------*/
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   /*--------------Header Start----------------*/
+  header h1{
+    font-size: 27px;
+    margin: 20px 30px;
+  }
+  #menu-container{
+    top:30px
+  }
+  #menu-container i{
+    font-size: 30px;
+  }
+  /*--------------Header End----------------*/
 
+}
+
+
+@media screen and (min-width: 600px) {
+/*--------------Header Start----------------*/
 header h1{
-   font-size: 30px;
-   top: -30px;
-   margin: 20px;
-}
-#center-container{
-   display: flex;
-   justify-content: center;
-   transform: translateY(-80px);
-}
-nav{
-   max-width: 100%;
-}
-#menu-container{
-   color:white;
-   position: absolute;
-   top: 40px;
-   left:85%;
-
+  font-size: 32px;
 }
 #menu-container i{
-   font-size: 35px;
+  font-size: 40px;
 }
-.topnav {
-   width: 100%;
-   top: 90px;
-}
- 
- .topnav a {
-   text-align: center;
-   padding: 12px;
-   font-size: 14px;
-   width: 100%;
- }
 /*--------------Header End----------------*/
 
 
@@ -441,11 +403,10 @@ footer a{
 @media screen and (min-width: 768px) {
     /*--------------Header Start----------------*/
     header h1{
-      font-size: 46px;
-      top: -40px;
+      font-size: 40px;
     }
     .topnav{
-      top: 10%;
+      top: 12%;
       width: 38%;
       margin-left: 60%;
     }
@@ -457,7 +418,10 @@ footer a{
       font-size: 22px;
       padding: 16px;
     }
-/*--------------Header End----------------*/
+    #center-container{
+      transform: translateY(-115%);
+    }
+  /*--------------Header End----------------*/
 
 /*--------------Work Start----------------*/
 
@@ -547,22 +511,18 @@ padding: 15px 25px;
 
     /*--------------Header Start----------------*/
     header h1{
-      font-size: 50px;
-      top: -50px;
+      font-size: 48px;
+    }
+    #menu-container{
+      top:50px
     }
     #menu-container i{
       font-size: 50px;
     }
     .topnav {
-      top:12%;
-      width: 34%;
-      margin-left: 63%;
-
+      top:18%;
     }
-    #left-container{
-        width:66%;
-      }
-    /*--------------Header End----------------*/
+  /*--------------Header End----------------*/
 
 /*--------------Work Start----------------*/
 
@@ -614,6 +574,25 @@ footer a{
 }
 
 @media only screen and (min-width: 1200px) {
+
+/*--------------Header Start----------------*/
+#center-container{
+  transform: translateY(-123%);
+}
+header h1{
+  font-size: 50px;
+}
+.topnav{
+  width: 34%;
+}
+#left-container{
+  width:66%;
+}
+#menu-container{
+  top: 60px;
+}
+/*--------------Header End----------------*/
+
 /*--------------Footer Start----------------*/
 footer h1{
   margin: 30px 60px;
@@ -668,7 +647,6 @@ margin-inline: 35%;
 @media only screen and (min-width: 1300px) {
 
     /*--------------Header Start----------------*/
-
     .topnav {
       width: 30%;
       margin-left: 68%;
@@ -725,20 +703,24 @@ footer a{
 @media only screen and (min-width: 1500px) {
 
     /*--------------Header Start----------------*/
-
     header h1{
-        font-size: 60px;
-        top: -95px;
-      }
-    .topnav {
-      width: 27%;
-      margin-left: 71%;
-
+      font-size: 60px;
+    }
+    .topnav{
+      margin-left: 73%;
+      top:20%;
+      width: 25%;
     }
     #left-container{
-        width:73%;
+      width:75%;
     }
-    /*--------------Header End----------------*/
+    #menu-container{
+      top: 70px;
+    }
+    #menu-container i{
+      font-size: 60px;
+    }
+  /*--------------Header End----------------*/
 
    /*--------------Work Start----------------*/
 
