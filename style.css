@@ -39,7 +39,7 @@ header h1{
     margin: 10px 30px;
     text-transform: uppercase;
 }
-header a{
+#center-container a{
   background-color: #f44336;
   color: white;
   padding: 10px 20px;
@@ -48,7 +48,7 @@ header a{
   margin: 0px auto;
   font-size: 10px;
 }
-header a:hover, header a:active {
+#center-container a:hover, #center-container a:active {
     background-color: red;
 }
 nav{
@@ -160,7 +160,7 @@ footer a:hover, footer a:active {
   header h1{
     font-size: 14px;
   }
-  header a{
+  #center-container a{
     font-size: 12px;
   }
   /*--------------Header End----------------*/
@@ -196,7 +196,7 @@ footer a{
   header h1{
     font-size: 16px;
   }
-  header a{
+  #center-container a{
     font-size: 14px;
   }
   #menu-container{
@@ -229,7 +229,7 @@ footer a{
     font-size: 20px;
     margin: 20px 30px;
   }
-  header a{
+  #center-container a{
     font-size: 18px;
   }
   #menu-container{
@@ -278,7 +278,7 @@ footer a{
     font-size: 26px;
     margin: 20px 35px;
   }
-  header a{
+  #center-container a{
     font-size: 20px;
   }
   #menu-container i{
@@ -308,7 +308,7 @@ footer a{
     header h1{
       font-size: 28px;
     }
-    header a{
+    #center-container a{
       font-size: 24px;
     }
     .topnav{
@@ -368,7 +368,7 @@ footer a{
     header h1{
       font-size: 38px;
     }
-    header a{
+    #center-container a{
       font-size: 28px;
     }
     #menu-container{
@@ -418,7 +418,7 @@ footer a{
       header h1{
         font-size: 43px;
       }
-      header a{
+      #center-container a{
         padding: 15px 45px;
       }
       .topnav{
@@ -467,7 +467,7 @@ footer a{
     #left-container{
       width:75%;
     }
-    header a{
+    #center-container a{
       font-size: 35px;
     }
     #menu-container{
