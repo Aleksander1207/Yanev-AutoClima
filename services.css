@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 body{
     background-color:black;
@@ -118,7 +118,7 @@ section{
   border-radius: 5px;
 }
 .dropdown-content h4{
-  color:rgb(196, 196, 196);
+  color:white;
   text-align: center;
   padding: 7px 8px;
   font-size: 14px;
